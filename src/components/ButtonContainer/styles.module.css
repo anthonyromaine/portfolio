@@ -1,0 +1,35 @@
+.btnContainer {
+  margin-top: 10px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn--outline {
+  background-color: transparent;
+  border: 1px solid #0ea5e9;
+  color: #0ea5e9;
+}
+
+.btn--outline:hover {
+  color: #0ea5e9;
+}
+
+.btn--fill {
+  color: white;
+  background-color: #0ea5e9;
+}
+
+.btn--fill:hover {
+  color: white;
+}

@@ -1,0 +1,31 @@
+.section {
+  width: 100%;
+}
+
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero__badge {
+  font-weight: bold;
+  color: '#9ca3af';
+}
+
+.hero__heading {
+  font-size: 3rem;
+  font-weight: bold;
+  background: -webkit-linear-gradient(left,#3a8af0, #2ecbc5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero__content {
+  font-size: 1.25rem;
+}
