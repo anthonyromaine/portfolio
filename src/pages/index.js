@@ -5,6 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Hero from '@site/src/components/Hero';
+import CompanyLogos from '@site/src/components/CompanyLogos';
 
 import styles from './index.module.css';
 
@@ -49,6 +50,20 @@ export default function Home() {
         }
       />
       <main>
+        <CompanyLogos 
+          logos={
+            [
+              {
+                src: "img/LNW.png",
+                alt: "Light & Wonder Logo"
+              },
+              {
+                src: "img/UNLV-Thin.png",
+                alt: "UNLV Logo"
+              }
+            ]
+          }  
+        />
         <HomepageFeatures />
       </main>
     </Layout>
