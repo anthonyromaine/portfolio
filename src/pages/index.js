@@ -8,6 +8,8 @@ import Hero from '@site/src/components/Hero';
 import CompanyLogos from '@site/src/components/CompanyLogos';
 import TextImage from '@site/src/components/TextImage';
 import intro from '@site/src/data/intro';
+import experience from '@site/src/data/experience';
+import heading from '@site/src/data/heading';
 
 import styles from './index.module.css';
 
@@ -18,18 +20,7 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <Hero
-        badge="HI, MY NAME IS"
-        heading="Anthony Romaine. I am a Software Developer."
-        content="Passionate. Always learning. Love to be challenged."
-        buttons={
-          [
-            {
-              text: "Do You Want to Work With Me?",
-              style: "fill",
-              link: "https://www.linkedin.com/in/anthony-romaine-81b1b2202/"
-            }
-          ]
-        }
+        options={heading}
       />
       <main>
         <CompanyLogos
@@ -47,7 +38,8 @@ export default function Home() {
           }
         />
         <TextImage text={intro.text} img={intro.img} imgSide={intro.imgSide} />
-        <HomepageFeatures />
+        <hr />
+        {experience.map((position) => <Hero options={position} />)}
       </main>
     </Layout>
   );

@@ -13,13 +13,29 @@
 
 .hero__badge {
   font-weight: bold;
-  color: '#9ca3af';
 }
 
 .hero__heading {
   font-size: 3rem;
   font-weight: bold;
+}
+
+.hero__heading--ocean {
   background: -webkit-linear-gradient(left,#3a8af0, #2ecbc5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero__badge--blue {
+  font-weight: bold;
+  background: -webkit-linear-gradient(left,var(--custom-blue), var(--custom-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero__badge--gray {
+  font-weight: bold;
+  background: -webkit-linear-gradient(left,var(--custom-gray), var(--custom-gray));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

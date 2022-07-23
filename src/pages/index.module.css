@@ -21,3 +21,9 @@
   align-items: center;
   justify-content: center;
 }
+
+hr {
+  max-width: 1000px;
+  width: 90%;
+  margin: 4rem auto;
+}
