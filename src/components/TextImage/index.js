@@ -56,14 +56,16 @@ function Text({ text }) {
   );
 }
 
-export default function TextImage({ img, text, imgSide }) {
-
+export default function TextImage({ img, text, imgSide, imgFirst }) {
+  let isImgFirst = imgSide !== "left" && imgFirst;
+  let imgRowOrientation = isImgFirst ? styles["img-first"] : "";
+  let textRowOrientation = isImgFirst ? styles["text-second"]: "";
   return (
     <div className={styles.container}>
-      <div className={styles.container__left}>
+      <div className={clsx(styles.container__left, textRowOrientation)}>
         {imgSide === "left" ? <Image img={img} /> : <Text text={text} />}
       </div>
-      <div className={styles.container__right}>
+      <div className={clsx(styles.container__right, imgRowOrientation)}>
         {imgSide === "right" ? <Image img={img} /> : <Text text={text} />}
       </div>
     </div>

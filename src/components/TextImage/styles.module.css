@@ -59,4 +59,12 @@
   .container {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .img-first {
+    grid-row: 1;
+  }
+
+  .text-second {
+    grid-row: 2;
+  }
 }
