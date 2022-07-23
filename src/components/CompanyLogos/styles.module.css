@@ -5,6 +5,8 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
 }
 
 .logo {
