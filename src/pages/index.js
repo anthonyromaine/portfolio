@@ -10,6 +10,7 @@ import TextImage from '@site/src/components/TextImage';
 import intro from '@site/src/data/intro';
 import experience from '@site/src/data/experience';
 import heading from '@site/src/data/heading';
+import projects from '@site/src/data/projects';
 
 import styles from './index.module.css';
 
@@ -38,6 +39,9 @@ export default function Home() {
           }
         />
         <TextImage text={intro.text} img={intro.img} imgSide={intro.imgSide} />
+        <hr />
+        <Hero options={{ heading: "My Coding Projects" }} />
+        {projects.map((project) => <TextImage text={project.text} img={project.img} imgSide={project.imgSide} imgFirst={project.imgFirst} />)}
         <hr />
         {experience.map((position) => <Hero options={position} />)}
       </main>

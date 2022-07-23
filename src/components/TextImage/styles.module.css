@@ -5,8 +5,8 @@
   gap: 2rem;
   width: 90%;
   margin: 0 auto;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
+  border-top: 2rem solid transparent;
+  border-bottom: 2rem solid transparent;
 }
 
 .img {

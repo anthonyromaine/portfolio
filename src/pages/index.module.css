@@ -26,4 +26,5 @@ hr {
   max-width: 1000px;
   width: 90%;
   margin: 4rem auto;
+  border: var(--custom-gray) 1px solid;
 }

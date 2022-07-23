@@ -59,7 +59,7 @@ function Text({ text }) {
 export default function TextImage({ img, text, imgSide, imgFirst }) {
   let isImgFirst = imgSide !== "left" && imgFirst;
   let imgRowOrientation = isImgFirst ? styles["img-first"] : "";
-  let textRowOrientation = isImgFirst ? styles["text-second"]: "";
+  let textRowOrientation = isImgFirst ? styles["text-second"] : "";
   return (
     <div className={styles.container}>
       <div className={clsx(styles.container__left, textRowOrientation)}>
