@@ -93,7 +93,7 @@ const config = {
             href: 'https://github.com/Lettuce05',
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Anthony Romaine. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Anthony Romaine.`,
       },
       prism: {
         theme: lightCodeTheme,
