@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Anthony Romaine',
   tagline: 'Passionate. Always learning. Love to be challenged',
-  url: 'https://anthonyromaine.com',
+  url: 'https://www.anthonyromaine.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
