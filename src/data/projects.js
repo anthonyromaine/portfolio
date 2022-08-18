@@ -36,4 +36,27 @@ export default [
     imgSide: "right",
     imgFirst: "true"
   },
+  {
+    img: {
+      src: "img/tictactoe-portfolio.png",
+      alt: "Tic-Tac-Toe Screenshots"
+    },
+    text: {
+      heading: "Tic-Tac-Toe",
+      content: ["A mobile friendly Tic-Tac-Toe game made with Phaser."],
+      features: ["Phaser", "JavaScript", "Vite"],
+      buttons: [
+        {
+          link: "https://github.com/Lettuce05/tictactoe-phaser",
+          text: "GitHub Repo"
+        },
+        {
+          link: "https://tictactoe.anthonyromaine.com/",
+          style: "fill",
+          text: "Live Demo"
+        },
+      ]
+    },
+    imgSide: "left",
+  },
 ]
