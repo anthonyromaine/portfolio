@@ -1,6 +1,29 @@
 export default [
   {
     img: {
+      src: "img/SimpleTodo.png",
+      alt: "SimpleTodo Main Screen Screenshot"
+    },
+    text: {
+      heading: "SimpleTodo",
+      content: ["A minimal yet fully featured todo application. Features include creating, editing, and deleting tasks. Additional features include multiple lists and local storage so that tasks persist."],
+      features: ["React", "Zustand", "Vite", "Vitest"],
+      buttons: [
+        {
+          link: "https://github.com/Lettuce05/SimpleTodo",
+          text: "GitHub Repo"
+        },
+        {
+          link: "https://simpletodo.anthonyromaine.com/",
+          style: "fill",
+          text: "Live Demo"
+        },
+      ]
+    },
+    imgSide: "left"
+  },
+  {
+    img: {
       src: "img/Finask.png",
       alt: "Finask Screenshots"
     },
@@ -15,7 +38,8 @@ export default [
         }
       ]
     },
-    imgSide: "left"
+    imgSide: "right",
+    imgFirst: "true"
   },
   {
     img: {
@@ -33,8 +57,7 @@ export default [
         }
       ]
     },
-    imgSide: "right",
-    imgFirst: "true"
+    imgSide: "left",
   },
   {
     img: {
@@ -57,6 +80,7 @@ export default [
         },
       ]
     },
-    imgSide: "left",
+    imgSide: "right",
+    imgFirst: "true"
   },
 ]
