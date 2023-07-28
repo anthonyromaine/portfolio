@@ -3,9 +3,9 @@ export default [
     heading: "My Experience"
   },
   {
-    badge: "2022 - Present",
+    badge: "2022 - 2023",
     heading: "Light & Wonder (PKA Scientific Games)",
-    content: "I work on the Software Quality Assurance team creating automation solutions for gaming software.",
+    content: "I worked on the Software Quality Assurance team creating automation solutions, internal tools, and enterprise software.",
     badgeColor: "blue"
   },
   {

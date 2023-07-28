@@ -1,6 +1,29 @@
 export default [
   {
     img: {
+      src: "img/Mocha.png",
+      alt: "SimpleTodo Main Screen Screenshot"
+    },
+    text: {
+      heading: "Mocha",
+      content: ["A Compilers teaching and learning tool. Mocha allows for easy visualization and experimentation of compiler topics."],
+      features: ["React", "TypeScript","Zustand", "Vite"],
+      buttons: [
+        {
+          link: "https://github.com/anthonyromaine/mocha",
+          text: "GitHub Repo"
+        },
+        {
+          link: "https://mocha.anthonyromaine.com/",
+          style: "fill",
+          text: "Live Demo"
+        },
+      ]
+    },
+    imgSide: "right"
+  },
+  {
+    img: {
       src: "img/SimpleTodo.png",
       alt: "SimpleTodo Main Screen Screenshot"
     },
