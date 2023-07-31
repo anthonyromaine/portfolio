@@ -71,7 +71,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'right' },
           {
-            href: 'https://github.com/Lettuce05',
+            href: 'https://github.com/anthonyromaine',
             label: 'GitHub',
             position: 'right',
           },

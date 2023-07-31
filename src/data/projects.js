@@ -2,7 +2,7 @@ export default [
   {
     img: {
       src: "img/Mocha.png",
-      alt: "SimpleTodo Main Screen Screenshot"
+      alt: "Mocha Screenshot"
     },
     text: {
       heading: "Mocha",
@@ -15,6 +15,29 @@ export default [
         },
         {
           link: "https://mocha.anthonyromaine.com/",
+          style: "fill",
+          text: "Live Demo"
+        },
+      ]
+    },
+    imgSide: "left"
+  },
+  {
+    img: {
+      src: "img/slidez.png",
+      alt: "Slidez Screenshots"
+    },
+    text: {
+      heading: "Slidez",
+      content: ["A sliding tile puzzle game made with Phaser."],
+      features: ["TypeScript","Phaser", "Vite"],
+      buttons: [
+        {
+          link: "https://github.com/anthonyromaine/slidez",
+          text: "GitHub Repo"
+        },
+        {
+          link: "https://slidez.anthonyromaine.com/",
           style: "fill",
           text: "Live Demo"
         },
@@ -33,7 +56,7 @@ export default [
       features: ["React", "Zustand", "Vite", "Vitest"],
       buttons: [
         {
-          link: "https://github.com/Lettuce05/SimpleTodo",
+          link: "https://github.com/anthonyromaine/SimpleTodo",
           text: "GitHub Repo"
         },
         {
@@ -56,7 +79,7 @@ export default [
       features: ["React Native", "React Navigation", "Expo"],
       buttons: [
         {
-          link: "https://github.com/Lettuce05/finask-onboardui",
+          link: "https://github.com/anthonyromaine/finask-onboardui",
           text: "GitHub Repo"
         }
       ]
@@ -75,7 +98,7 @@ export default [
       features: ["React Native", "React Navigation", "Expo", "Remotive API"],
       buttons: [
         {
-          link: "https://github.com/Lettuce05/Solity",
+          link: "https://github.com/anthonyromaine/Solity",
           text: "GitHub Repo"
         }
       ]
@@ -93,7 +116,7 @@ export default [
       features: ["Phaser", "JavaScript", "Vite"],
       buttons: [
         {
-          link: "https://github.com/Lettuce05/tictactoe-phaser",
+          link: "https://github.com/anthonyromaine/tictactoe-phaser",
           text: "GitHub Repo"
         },
         {
